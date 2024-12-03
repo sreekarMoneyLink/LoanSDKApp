@@ -270,9 +270,12 @@ extension UIViewController {
         alert.addAction(confirmAction)
         alert.addAction(cancelAction)
         // Presenting the alert in your view controller
-        if let topController = UIApplication.shared.keyWindow?.rootViewController {        
-            topController.present(alert, animated: true, completion: nil)
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+            if let topController = windowScene.windows.first(where: { $0.isKeyWindow })?.rootViewController {
+                topController.present(alert, animated: true, completion: nil)
+            }
         }
+
     }
     
     func showCardRemovalConfirmationAlert(isRemoveCard: Bool, onConfirm: ((UIAlertAction) -> Void)? = nil) {
@@ -285,9 +288,12 @@ extension UIViewController {
         alert.addAction(confirmAction)
         alert.addAction(cancelAction)
         // Presenting the alert in your view controller
-        if let topController = UIApplication.shared.keyWindow?.rootViewController {
-            topController.present(alert, animated: true, completion: nil)
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+            if let topController = windowScene.windows.first(where: { $0.isKeyWindow })?.rootViewController {
+                topController.present(alert, animated: true, completion: nil)
+            }
         }
+
     }
     
     func showSuccess(_ message: String) {
@@ -298,8 +304,8 @@ extension UIViewController {
     
     func addDoneButtonOnKeyboard(textField:BCUITextField) {
         let doneToolbar: UIToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 320, height: 50))
-        doneToolbar.barStyle = UIBarStyle.blackTranslucent
-
+        doneToolbar.barStyle = .black
+        doneToolbar.isTranslucent = true
         let flexSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
         let done: UIBarButtonItem = UIBarButtonItem(title: "Done", style: UIBarButtonItem.Style.done, target: self, action: #selector(doneButtonAction))
 

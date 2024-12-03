@@ -10,27 +10,58 @@ import UIKit
 
 extension UIColor {
     
-    static func fromHexCode(hex:String) -> UIColor {
-        var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
-        
-        if (cString.hasPrefix("#")) {
+//    static func fromHexCode(hex:String) -> UIColor {
+//        var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+//        
+//        if (cString.hasPrefix("#")) {
+//            cString.remove(at: cString.startIndex)
+//        }
+//        
+//        if ((cString.count) != 6) {
+//            return UIColor.gray
+//        }
+//        
+//        var rgbValue:UInt32 = 0
+//        Scanner(string: cString).scanHexInt64(&rgbValue)
+//        
+//        return UIColor(
+//            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+//            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+//            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+//            alpha: CGFloat(1.0)
+//        )
+//    }
+    
+    static func fromHexCode(hex: String) -> UIColor {
+        var cString: String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+
+        // Remove the leading "#" if present
+        if cString.hasPrefix("#") {
             cString.remove(at: cString.startIndex)
         }
-        
-        if ((cString.count) != 6) {
+
+        // Ensure the hex string is 6 characters
+        if cString.count != 6 {
             return UIColor.gray
         }
-        
-        var rgbValue:UInt32 = 0
-        Scanner(string: cString).scanHexInt32(&rgbValue)
-        
-        return UIColor(
-            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
-            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
-            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
-            alpha: CGFloat(1.0)
-        )
+
+        var rgbValue: UInt64 = 0
+
+        // Use scanHexInt64 to support newer iOS versions
+        let scanner = Scanner(string: cString)
+        if scanner.scanHexInt64(&rgbValue) {
+            return UIColor(
+                red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+                green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+                blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+                alpha: 1.0
+            )
+        }
+
+        // Return gray if the scan fails
+        return UIColor.gray
     }
+
     
     static func skyBlueColor() -> UIColor {
         return UIColor(red: 77.0/255, green: 185.0/255, blue: 237.0/255, alpha: 1.0)

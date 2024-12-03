@@ -107,7 +107,7 @@ class LendingBaseVC: KeyboardManagingViewController,AlertDisplayer {
                 let previousViewController = viewControllers[viewControllers.count - 2]
                 let currentViewController = viewControllers[viewControllers.count - 1]
                 if previousViewController is LendingAppPinVC && currentViewController is LoanRequestSuccessVC {
-                    let actualVC = viewControllers[viewControllers.count - 3]
+                    let _ = viewControllers[viewControllers.count - 3]
                     navigationController?.popToViewController(viewControllers[viewControllers.count - 3], animated: true)
                 }else {
                     // Otherwise, pop to the previous view controller
@@ -129,8 +129,20 @@ class LendingBaseVC: KeyboardManagingViewController,AlertDisplayer {
     
     func setupStatusBarBackground(bgColor:UIColor? = UIColor.navigationBarColor()) {
                // Get the height of the status bar
-               let statusBarHeight = UIApplication.shared.statusBarFrame.height
-
+        // Get the height of the status bar
+           var statusBarHeight: CGFloat = 0
+           
+           if #available(iOS 13.0, *) {
+               // For iOS 13 and later, use statusBarManager
+               if let windowScene = view.window?.windowScene {
+                   statusBarHeight = windowScene.statusBarManager?.statusBarFrame.height ?? 0
+               }
+           } else {
+               // For iOS versions before 13.0
+               statusBarHeight = UIApplication.shared.statusBarFrame.height
+           }
+           
+           if statusBarHeight > 0 {
                // Create a view with the same height as the status bar
                let statusBarView = UIView()
                statusBarView.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: statusBarHeight)
@@ -139,32 +151,31 @@ class LendingBaseVC: KeyboardManagingViewController,AlertDisplayer {
                // Add the status bar background view to the main view
                view.addSubview(statusBarView)
            }
+              
+    }
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
     
     // Helper method to resize the image
     // Helper method to resize the image
+
     func resizeImage(image: UIImage, targetSize: CGSize) -> UIImage? {
-        let size = image.size
-        let widthRatio  = targetSize.width  / size.width
-        let heightRatio = targetSize.height / size.height
-        // Determine the scale factor to maintain aspect ratio
-        let scaleFactor = min(widthRatio, heightRatio)
-        // Calculate the new image size
-        let newSize = CGSize(width: size.width * scaleFactor, height: size.height * scaleFactor)
-        // Create a graphics context with the new size
+        // Calculate scale factor to maintain aspect ratio
+        let scaleFactor = min(targetSize.width / image.size.width, targetSize.height / image.size.height)
+        
+        // Calculate new size based on scale factor
+        let newSize = CGSize(width: image.size.width * scaleFactor, height: image.size.height * scaleFactor)
+        
+        // Begin graphics context
         UIGraphicsBeginImageContextWithOptions(newSize, false, 0.0)
-        defer { UIGraphicsEndImageContext() } // Ensure the context is closed after drawing
-        // Check if the context is valid before drawing
-        guard let context = UIGraphicsGetCurrentContext() else {
-            print("Failed to create graphics context.")
-            return nil
-        }                // Draw the resized image
-        image.draw(in: CGRect(origin: .zero, size: newSize))                // Retrieve the image from the context
-        let newImage = UIGraphicsGetImageFromCurrentImageContext()
-        return newImage
+        defer { UIGraphicsEndImageContext() }
+        
+        // Draw the image and retrieve the new resized image
+        image.draw(in: CGRect(origin: .zero, size: newSize))
+        return UIGraphicsGetImageFromCurrentImageContext()
     }
+
     
     func isValidMobileNumber(_ number: String) -> Bool {
         let mobileRegex = "^[0-9*]{10}$"

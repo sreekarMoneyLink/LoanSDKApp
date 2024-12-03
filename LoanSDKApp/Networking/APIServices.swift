@@ -186,7 +186,7 @@ class APIService {
         let urlString = "\(baseURL)\(endpoint.rawValue)"
         
         // Create a URL object from the string
-        guard let url = URL(string: urlString) else {
+        guard let _ = URL(string: urlString) else {
             completion(.failure(URLError(.badURL))) // Handle invalid URL error
             return
         }

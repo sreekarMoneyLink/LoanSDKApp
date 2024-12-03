@@ -17,10 +17,6 @@ class LendingAppPinVC: LendingBaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.OTPTxtView.inputCount = 4
-        self.OTPTxtView.handleInputChange = { [weak self] newValue in
-            print("OTP Input: \(newValue)")
-        }
-                
         self.pinView.handleInputChange = { [weak self] newValue in
             self?.OTPTxtView.inputValue = newValue
             if newValue.count == 4{
