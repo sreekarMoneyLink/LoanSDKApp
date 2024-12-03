@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
    # Define the resource bundle
   spec.resources = [
-  'LoanSDKApp/Main.storyboard',  # Path to the storyboard
+  'LoanSDKApp/Lending.storyboard',  # Path to the storyboard
   'LoanSDKApp/**/*.xcassets'     # Path to any asset catalogs (if any)
 ]
 
