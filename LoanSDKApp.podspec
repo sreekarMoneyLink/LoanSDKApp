@@ -19,9 +19,10 @@ Pod::Spec.new do |spec|
   spec.source_files = 'LoanSDKApp/**/*.{swift,h,m}'
 
    # Define the resource bundle
-  spec.resource_bundles = {
-    'LoanSDKApp' => ['LoanSDKApp/Resources/**/*.storyboard', 'LoanSDKApp/Resources/**/*.xcassets']
-  }
+  spec.resources = [
+  'LoanSDKApp/Main.storyboard',  # Path to the storyboard
+  'LoanSDKApp/**/*.xcassets'     # Path to any asset catalogs (if any)
+]
 
   # Exclude files
   spec.exclude_files = "Classes/Exclude"
