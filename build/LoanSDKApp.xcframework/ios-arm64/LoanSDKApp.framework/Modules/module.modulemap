@@ -1,0 +1,6 @@
+framework module LoanSDKApp {
+  umbrella header "LoanSDKApp.h"
+  export *
+
+  module * { export * }
+}

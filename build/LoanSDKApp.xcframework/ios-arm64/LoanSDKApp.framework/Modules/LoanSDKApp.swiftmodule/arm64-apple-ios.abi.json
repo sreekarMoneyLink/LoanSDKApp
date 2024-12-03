@@ -1,0 +1,2889 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "LoanSDKApp",
+    "printedName": "LoanSDKApp",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatePickerDialog",
+        "printedName": "DatePickerDialog",
+        "declKind": "Class",
+        "usr": "s:10LoanSDKApp16DatePickerDialogC",
+        "mangledName": "$s10LoanSDKApp16DatePickerDialogC",
+        "moduleName": "LoanSDKApp",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyAppSDKManager",
+        "printedName": "MyAppSDKManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "launchLending",
+            "printedName": "launchLending(from:isPush:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LoanSDKApp15MyAppSDKManagerC13launchLending4from6isPushySo16UIViewControllerCSg_SbSgtFZ",
+            "mangledName": "$s10LoanSDKApp15MyAppSDKManagerC13launchLending4from6isPushySo16UIViewControllerCSg_SbSgtFZ",
+            "moduleName": "LoanSDKApp",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LoanSDKApp15MyAppSDKManagerC",
+        "mangledName": "$s10LoanSDKApp15MyAppSDKManagerC",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResourceManager",
+        "printedName": "ResourceManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(named:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LoanSDKApp15ResourceManagerC5image5namedSo7UIImageCSgSS_tFZ",
+            "mangledName": "$s10LoanSDKApp15ResourceManagerC5image5namedSo7UIImageCSgSS_tFZ",
+            "moduleName": "LoanSDKApp",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LoanSDKApp15ResourceManagerC",
+        "mangledName": "$s10LoanSDKApp15ResourceManagerC",
+        "moduleName": "LoanSDKApp",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "LoanSDKApp"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/AttributeLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/AttributeLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/AttributeLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 579,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/AttributeLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/AttributeLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 883,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/AttributeLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1008,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 644,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 870,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 1367,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 1868,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 2125,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 2138,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 2370,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 476,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 654,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUIImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1022,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUILabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 421,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUILabel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 647,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUILabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1145,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUILabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1397,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUILabel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1641,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUITextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 712,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUITextField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 938,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUITextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 1436,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUITextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 1975,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUITextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 2232,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUITextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 2245,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCUITextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 2477,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 600,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 855,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1132,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2290,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2577,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2590,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/BCView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2866,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176,
+      "length": 3,
+      "value": "186"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 187,
+      "length": 3,
+      "value": "242"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 3,
+      "value": "186"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 3,
+      "value": "242"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 736,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 942,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 959,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 977,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1278,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1411,
+      "length": 4,
+      "value": "0.28"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1441,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1516,
+      "length": 4,
+      "value": "0.42"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1546,
+      "length": 4,
+      "value": "0.66"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1622,
+      "length": 4,
+      "value": "0.72"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1652,
+      "length": 4,
+      "value": "0.36"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1884,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "StringLiteral",
+      "offset": 2026,
+      "length": 11,
+      "value": "\"strokeEnd\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 2081,
+      "length": 4,
+      "value": "0.23"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2141,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2259,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2302,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/CheckBox.swift",
+      "kind": "StringLiteral",
+      "offset": 2476,
+      "length": 11,
+      "value": "\"strokeEnd\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/KeyboardHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 18,
+      "value": "\"KeyboardWillShow\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/KeyboardHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 18,
+      "value": "\"KeyboardWillHide\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/PinKeyboardView.swift",
+      "kind": "Array",
+      "offset": 253,
+      "length": 133,
+      "value": "[[1, 2, 3], [4, 5, 6], [7, 8, 9], [-1, 0, -2]]"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/PinKeyboardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/PinKeyboardView.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/PINScreen.swift",
+      "kind": "Array",
+      "offset": 312,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/PINScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 348,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/PINScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseClass\/PINScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 606,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/BaseViewController\/LendingBaseVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1552,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 18,
+      "value": "\"BVN verification\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 112,
+      "value": "\"You BVN is linked to your VERIFYED profile. Please enter your KYC soft token to help us validate your identity\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 8,
+      "value": "\"6c5ce7\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 8,
+      "value": "\"479020\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 8,
+      "value": "\"0053d5\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Constants\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 8,
+      "value": "\"f7f7f7\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/DatePickerDialog.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 13,
+      "value": "\"Select Date\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 978,
+      "length": 4,
+      "value": "77.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 983,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 995,
+      "length": 5,
+      "value": "185.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1001,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1012,
+      "length": 5,
+      "value": "237.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1018,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1030,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1114,
+      "length": 5,
+      "value": "153.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1120,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1132,
+      "length": 5,
+      "value": "153.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1138,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1149,
+      "length": 5,
+      "value": "153.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1155,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1167,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1336,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1339,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1351,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1354,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1365,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1369,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1381,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1472,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1476,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1488,
+      "length": 3,
+      "value": "192"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1492,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1503,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1505,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1517,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1611,
+      "length": 3,
+      "value": "127"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1615,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1627,
+      "length": 3,
+      "value": "127"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1631,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1642,
+      "length": 3,
+      "value": "127"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1646,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1658,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1754,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1756,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1768,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1782,
+      "length": 2,
+      "value": "96"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1785,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1797,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1881,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1884,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1896,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1899,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1910,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1914,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1926,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2011,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2015,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2027,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2031,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2042,
+      "length": 2,
+      "value": "59"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2045,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2057,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2150,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2153,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2165,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2168,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2179,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2183,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2195,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2284,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2287,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2299,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2302,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2313,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2317,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2329,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2424,
+      "length": 3,
+      "value": "205"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2428,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2440,
+      "length": 3,
+      "value": "204"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2444,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2455,
+      "length": 3,
+      "value": "210"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2459,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2471,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2567,
+      "length": 3,
+      "value": "232"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2571,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2583,
+      "length": 3,
+      "value": "232"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2587,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2598,
+      "length": 3,
+      "value": "232"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2602,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2614,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2714,
+      "length": 3,
+      "value": "135"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2718,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2730,
+      "length": 3,
+      "value": "133"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2734,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2745,
+      "length": 3,
+      "value": "147"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2749,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2761,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2852,
+      "length": 3,
+      "value": "231"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2856,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2868,
+      "length": 3,
+      "value": "235"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2872,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2883,
+      "length": 3,
+      "value": "238"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2887,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2899,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2995,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2998,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3010,
+      "length": 2,
+      "value": "51"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3013,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3024,
+      "length": 3,
+      "value": "107"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3028,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIColorExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3040,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIViewControllerExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIViewControllerExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 345,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIViewControllerExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 6281,
+      "length": 12,
+      "value": "\"yyyy-MM-dd\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Extension\/UIViewControllerExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7754,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 646,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Common\/Utility\/UserSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 36,
+      "value": "\"\/instacard\/api\/v1\/listofinstacards\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 43,
+      "value": "\"\/instacard\/api\/v1\/listofbvnlinkedaccounts\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 32,
+      "value": "\"\/instacard\/api\/v1\/verifyapppin\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 30,
+      "value": "\"\/instacard\/api\/v1\/addnewcard\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 33,
+      "value": "\"\/instacard\/api\/v1\/getcarddetail\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 26,
+      "value": "\"\/instacard\/api\/v1\/setpin\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 29,
+      "value": "\"\/instacard\/api\/v1\/verifypin\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 33,
+      "value": "\"\/instacard\/api\/v1\/paymentlimits\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 694,
+      "length": 38,
+      "value": "\"\/instacard\/api\/v1\/updatepaymentlimit\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 31,
+      "value": "\"\/instacard\/api\/v1\/unblockcard\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
+      "length": 29,
+      "value": "\"\/instacard\/api\/v1\/blockcard\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 872,
+      "length": 41,
+      "value": "\"\/instacard\/api\/v1\/creditcardoutstanding\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 29,
+      "value": "\"\/instacard\/api\/v1\/changepin\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 36,
+      "value": "\"\/instacard\/api\/v1\/adduniversalcard\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 39,
+      "value": "\"\/instacard\/api\/v1\/listofuniversalcard\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 43,
+      "value": "\"\/instacard\/api\/v1\/unbilledcardtransaction\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1198,
+      "length": 28,
+      "value": "\"\/instacard\/api\/v1\/addmoney\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1258,
+      "length": 39,
+      "value": "\"\/instacard\/api\/v1\/unmaskedcarddetails\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
+      "length": 40,
+      "value": "\"\/instacard\/api\/v1\/debitcardtransaction\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 29,
+      "value": "\"\/instacard\/api\/v1\/repayment\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 37,
+      "value": "\"\/instacard\/api\/v1\/crediteligibility\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1513,
+      "length": 34,
+      "value": "\"\/instacard\/api\/v1\/faceliveliness\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
+      "length": 35,
+      "value": "\"\/verifyed\/api\/v1\/sbvnverification\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1633,
+      "length": 33,
+      "value": "\"\/instacard\/api\/v1\/getbvndetails\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1686,
+      "length": 27,
+      "value": "\"\/instacard\/api\/v1\/sendotp\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 29,
+      "value": "\"\/instacard\/api\/v1\/verifyotp\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 33,
+      "value": "\"\/instacard\/api\/v1\/getwalletInfo\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1860,
+      "length": 34,
+      "value": "\"\/instacard\/api\/v1\/alltransaction\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1924,
+      "length": 37,
+      "value": "\"\/verifyed\/api\/v1\/svalidatesofttoken\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 31,
+      "value": "\"\/verifyed\/api\/v1\/sopenaccount\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2038,
+      "length": 27,
+      "value": "\"\/verifyed\/api\/v1\/ssendotp\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2092,
+      "length": 37,
+      "value": "\"\/verifyed\/api\/v1\/sbvnfaceliveliness\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2156,
+      "length": 32,
+      "value": "\"\/kyc\/v1\/getverifymeuserdetails\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2217,
+      "length": 36,
+      "value": "\"\/verifyed\/api\/v1\/ssavepersonalinfo\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2280,
+      "length": 46,
+      "value": "\"\/verifyed\/api\/v1\/sgetkyclevelwithacctdetails\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2365,
+      "length": 37,
+      "value": "\"\/verifyed\/api\/v1\/sninfaceliveliness\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2430,
+      "length": 39,
+      "value": "\"\/verifyed\/api\/v1\/supgradenextkyclevel\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2493,
+      "length": 29,
+      "value": "\"\/verifyed\/api\/v1\/sverifyotp\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2557,
+      "length": 42,
+      "value": "\"\/verifyed\/api\/v1\/sbvnverificationdetails\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2634,
+      "length": 42,
+      "value": "\"\/verifyed\/api\/v1\/sninverificationdetails\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2703,
+      "length": 34,
+      "value": "\"\/verifyed\/api\/v1\/sidverification\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2775,
+      "length": 35,
+      "value": "\"\/kyc\/v1\/addressverificationstatus\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2837,
+      "length": 34,
+      "value": "\"\/verifyed\/api\/v1\/sproofofaddress\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2899,
+      "length": 53,
+      "value": "\"\/verifyed\/api\/user\/v1\/getListOfElectricityProviders\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2975,
+      "length": 30,
+      "value": "\"\/verifyed\/api\/v1\/sverifyuser\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3032,
+      "length": 34,
+      "value": "\"\/verifyed\/api\/v1\/sgenerateqrcode\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3089,
+      "length": 30,
+      "value": "\"\/instacard\/api\/v1\/deletecard\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3151,
+      "length": 33,
+      "value": "\"\/merchant\/api\/v1\/get\/categories\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3219,
+      "length": 36,
+      "value": "\"\/merchant\/api\/v1\/get\/subcategories\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3283,
+      "length": 26,
+      "value": "\"\/customer\/api\/v1\/loanelg\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3331,
+      "length": 28,
+      "value": "\"\/customer\/api\/v1\/applyloan\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3382,
+      "length": 29,
+      "value": "\"\/customer\/api\/v1\/submitloan\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/APIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3512,
+      "length": 28,
+      "value": "\"https:\/\/api-dev.montra.org\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Networking\/OAAPIServices.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 28,
+      "value": "\"https:\/\/api-dev.montra.org\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
+      "length": 16,
+      "value": "\"eligibleamount\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 1117,
+      "length": 10,
+      "value": "\"bankname\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 1156,
+      "length": 10,
+      "value": "\"bankicon\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 1664,
+      "length": 16,
+      "value": "\"eligibleamount\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 1733,
+      "length": 21,
+      "value": "\"creditlifeinsurance\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 2189,
+      "length": 16,
+      "value": "\"approvalstatus\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 2239,
+      "length": 19,
+      "value": "\"bankaccountnumber\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 2289,
+      "length": 16,
+      "value": "\"eligibleamount\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 2330,
+      "length": 10,
+      "value": "\"bankname\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/Model\/EligibleLoan.swift",
+      "kind": "StringLiteral",
+      "offset": 2365,
+      "length": 10,
+      "value": "\"bankicon\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/View\/FinServiceVC.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/ViewModel\/BankLoanListVM.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Src\/ViewModel\/LoanApprovalVM.swift",
+      "kind": "StringLiteral",
+      "offset": 499,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 557,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 3,
+      "value": "154"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 576,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 603,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "Array",
+      "offset": 644,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/OTPTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 838,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PINScreenView.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PINScreenView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PINScreenView.swift",
+      "kind": "Array",
+      "offset": 474,
+      "length": 111,
+      "value": "[[\"1\", \"2\", \"3\"], [\"4\", \"5\", \"6\"], [\"7\", \"8\", \"9\"], [\"10\", \"0\", \"clear\"]]"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PinSetupView.swift",
+      "kind": "Array",
+      "offset": 219,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PinSetupView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PinSetupView.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 10,
+      "value": "\"view-off\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PinSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PinSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 879,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PinSetupView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1066,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Desktop\/LoanSDKApp\/LoanSDKApp\/Utility\/PinSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1131,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 12,
+      "value": "\"AccessBank\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 16,
+      "value": "\"AccessLogoBlue\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1166,
+      "length": 12,
+      "value": "\"CreditCard\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
+      "length": 12,
+      "value": "\"PaydayLoan\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1509,
+      "length": 20,
+      "value": "\"Payment Successful\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 6,
+      "value": "\"STPL\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 15,
+      "value": "\"SalaryAdvance\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1994,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2143,
+      "length": 6,
+      "value": "\"back\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2295,
+      "length": 9,
+      "value": "\"carLoan\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2474,
+      "length": 21,
+      "value": "\"consumerdurableloan\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2649,
+      "length": 13,
+      "value": "\"failureIcon\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2802,
+      "length": 6,
+      "value": "\"home\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2956,
+      "length": 10,
+      "value": "\"homeLoan\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3120,
+      "length": 13,
+      "value": "\"lendingLogo\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3291,
+      "length": 15,
+      "value": "\"loanRepayment\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 14,
+      "value": "\"personalLoan\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3648,
+      "length": 22,
+      "value": "\"trackLoanApplication\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3826,
+      "length": 14,
+      "value": "\"trackpayment\""
+    },
+    {
+      "filePath": "\/Users\/sreekar\/Library\/Developer\/Xcode\/DerivedData\/LoanSDKApp-ezmhdeczdeftlfaousfyoggrztfb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LoanSDKApp\/IntermediateBuildFilesPath\/LoanSDKApp.build\/Release-iphoneos\/LoanSDKApp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3996,
+      "length": 14,
+      "value": "\"verifyedlogo\""
+    }
+  ]
+}

@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BDBDE5899C16D3600FD8A1BB /* Pods_LoanSDKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3A0BAB054C02CDC5A5A186 /* Pods_LoanSDKApp.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		6B3A0BAB054C02CDC5A5A186 /* Pods_LoanSDKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoanSDKApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54DF5A384E1BD24AC78FAC3 /* Pods-LoanSDKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanSDKApp.release.xcconfig"; path = "Target Support Files/Pods-LoanSDKApp/Pods-LoanSDKApp.release.xcconfig"; sourceTree = "<group>"; };
 		C6EE0DD72CFDCEA500A3DD9A /* LoanSDKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoanSDKApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B7432D20CD51A6E607AAA8 /* Pods-LoanSDKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanSDKApp.debug.xcconfig"; path = "Target Support Files/Pods-LoanSDKApp/Pods-LoanSDKApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBDE5899C16D3600FD8A1BB /* Pods_LoanSDKApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25BE6AF478B247D8FC785421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B3A0BAB054C02CDC5A5A186 /* Pods_LoanSDKApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3AE5D69E509482C1DC3F649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3B7432D20CD51A6E607AAA8 /* Pods-LoanSDKApp.debug.xcconfig */,
+				C54DF5A384E1BD24AC78FAC3 /* Pods-LoanSDKApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C6EE0DCD2CFDCEA500A3DD9A = {
 			isa = PBXGroup;
 			children = (
 				C6EE0DD92CFDCEA500A3DD9A /* LoanSDKApp */,
 				C6EE0DD82CFDCEA500A3DD9A /* Products */,
+				A3AE5D69E509482C1DC3F649 /* Pods */,
+				25BE6AF478B247D8FC785421 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6EE0DDF2CFDCEA500A3DD9A /* Build configuration list for PBXNativeTarget "LoanSDKApp" */;
 			buildPhases = (
+				8E80EB23E89A4C2D14022655 /* [CP] Check Pods Manifest.lock */,
 				C6EE0DD22CFDCEA500A3DD9A /* Headers */,
 				C6EE0DD32CFDCEA500A3DD9A /* Sources */,
 				C6EE0DD42CFDCEA500A3DD9A /* Frameworks */,
@@ -88,8 +116,6 @@
 				C6EE0DD92CFDCEA500A3DD9A /* LoanSDKApp */,
 			);
 			name = LoanSDKApp;
-			packageProductDependencies = (
-			);
 			productName = LoanSDKApp;
 			productReference = C6EE0DD72CFDCEA500A3DD9A /* LoanSDKApp.framework */;
 			productType = "com.apple.product-type.framework";
@@ -137,6 +163,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E80EB23E89A4C2D14022655 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoanSDKApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6EE0DD32CFDCEA500A3DD9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -150,6 +201,7 @@
 /* Begin XCBuildConfiguration section */
 		C6EE0DE02CFDCEA500A3DD9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B7432D20CD51A6E607AAA8 /* Pods-LoanSDKApp.debug.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -192,6 +244,7 @@
 		};
 		C6EE0DE12CFDCEA500A3DD9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54DF5A384E1BD24AC78FAC3 /* Pods-LoanSDKApp.release.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
