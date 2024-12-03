@@ -7,7 +7,7 @@ public class MyAppSDKManager {
 
     public static func launchLending(from presentingViewController: UIViewController?, isPush: Bool?) {
         // Load the storyboard
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: FinServiceVC.self))
+        let storyboard = UIStoryboard(name: "Lending", bundle: Bundle(for: FinServiceVC.self))
         
         // Instantiate the FinServiceVC
         guard let finServiceVC = storyboard.instantiateViewController(withIdentifier: "FinServiceVC") as? FinServiceVC else {
