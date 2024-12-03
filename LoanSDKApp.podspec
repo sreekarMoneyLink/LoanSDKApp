@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
    # Define the resource bundle
   spec.resource_bundles = {
-    'LoanSDKApp' => ['LoanSDKApp/**/*.storyboard', 'LoanSDKApp/**/*.xcassets']
+    'LoanSDKApp' => ['LoanSDKApp/Resources/**/*.storyboard', 'LoanSDKApp/Resources/**/*.xcassets']
   }
 
   # Exclude files
