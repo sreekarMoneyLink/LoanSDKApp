@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
 
   # Corrected Homepage and Source URLs to HTTPS
   spec.homepage     = "https://github.com/sreekarMoneyLink/LoanSDKApp"
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }  # Skipping LICENSE file reference for now
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "sreekarMoneyLink" => "sreekar.pv@montra.org" }
 
   # Corrected source to use HTTPS instead of SSH
@@ -15,8 +15,14 @@ Pod::Spec.new do |spec|
   # iOS deployment target
   spec.ios.deployment_target = '13.0'
 
-  # Corrected source files pattern
+  # Source files pattern
   spec.source_files = 'LoanSDKApp/**/*.{swift,h,m}'
+
+  # Resources (include the storyboard and assets)
+  spec.resources = [
+    'LoanSDKApp/**/*.storyboard',
+    'LoanSDKApp/**/*.xcassets'
+  ]
 
   # Exclude files
   spec.exclude_files = "Classes/Exclude"

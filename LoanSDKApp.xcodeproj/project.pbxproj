@@ -27,11 +27,22 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		C6FD643C2CFF19710092B4A0 /* Exceptions for "LoanSDKApp" folder in "Compile Sources" phase from "LoanSDKApp" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = C6EE0DD32CFDCEA500A3DD9A /* Sources */;
+			membershipExceptions = (
+				Main.storyboard,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C6EE0DD92CFDCEA500A3DD9A /* LoanSDKApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				C6EE0DDE2CFDCEA500A3DD9A /* Exceptions for "LoanSDKApp" folder in "LoanSDKApp" target */,
+				C6FD643C2CFF19710092B4A0 /* Exceptions for "LoanSDKApp" folder in "Compile Sources" phase from "LoanSDKApp" target */,
 			);
 			path = LoanSDKApp;
 			sourceTree = "<group>";
